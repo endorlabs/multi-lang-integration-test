@@ -1,0 +1,5 @@
+distro~=1.6.0
+wget~=3.2
+langchain_community
+huggingface_hub
+flask==2.1.2

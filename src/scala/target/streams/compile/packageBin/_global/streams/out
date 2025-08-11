@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /private/tmp/scOG/scala-cg-generation-test/target/scala-3.3.1/the-app_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stuff[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/target/scala-3.3.1/classes/stuff[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stuff/TheApp.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/target/scala-3.3.1/classes/stuff/TheApp.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stuff/TheApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/target/scala-3.3.1/classes/stuff/TheApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stuff/TheApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/target/scala-3.3.1/classes/stuff/TheApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

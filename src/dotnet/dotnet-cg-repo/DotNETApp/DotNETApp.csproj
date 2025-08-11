@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.11.5" />
+    <PackageReference Include="DotNetZip" Version="1.10.1" />
+    <PackageReference Include="sharpcompress" Version="0.20.0" />
+    <PackageReference Include="YamlDotNet" Version="4.3.2" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="SharpZipLib" Version="1.0.0-alpha2" />
+    <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua" Version="1.4.353.14" />
+    <PackageReference Include="log4net" Version="2.0.9" />
+    <PackageReference Include="DotNetNuke.Core" Version="9.1.1.129" />
+    <PackageReference Include="ServiceStack" Version="5.1.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.2.0" />
+    <PackageReference Include="CoreFtp" Version="1.4.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /private/tmp/scOG/scala-cg-generation-test/otherlib/target/scala-3.3.1/the-supplement-lib_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	libs[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/otherlib/target/scala-3.3.1/classes/libs[0m
+[0m[[0m[0mdebug[0m] [0m[0m	libs/TheSupplementLib$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/otherlib/target/scala-3.3.1/classes/libs/TheSupplementLib$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	libs/TheSupplementLib.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/otherlib/target/scala-3.3.1/classes/libs/TheSupplementLib.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	libs/TheSupplementLib.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /private/tmp/scOG/scala-cg-generation-test/otherlib/target/scala-3.3.1/classes/libs/TheSupplementLib.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
