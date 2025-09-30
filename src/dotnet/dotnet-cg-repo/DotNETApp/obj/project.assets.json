@@ -973,7 +973,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {
+      "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -4794,10 +4794,10 @@
         "microsoft.codeanalysis.razor.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.7.0": {
-      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
-      "path": "microsoft.csharp/4.7.0",
+      "path": "microsoft.csharp/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4810,7 +4810,6 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -4820,7 +4819,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -11068,7 +11067,6 @@
       "DotNetNuke.Core >= 9.1.1.129",
       "DotNetZip >= 1.10.1",
       "Microsoft.AspNetCore.SpaServices >= 2.2.0",
-      "Microsoft.CSharp >= 4.7.0",
       "Microsoft.IdentityModel.Clients.ActiveDirectory >= 5.1.1",
       "Mono.Cecil >= 0.11.5",
       "OPCFoundation.NetStandard.Opc.Ua >= 1.4.353.14",
@@ -11080,25 +11078,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/shiva/.nuget/packages/": {}
+    "/Users/hvsingh/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
+      "projectUniqueName": "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
       "projectName": "DotNETApp",
-      "projectPath": "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
-      "packagesPath": "/Users/shiva/.nuget/packages/",
-      "outputPath": "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/obj/",
+      "projectPath": "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
+      "packagesPath": "/Users/hvsingh/.nuget/packages/",
+      "outputPath": "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/shiva/.nuget/NuGet/NuGet.Config"
+        "/Users/hvsingh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/Users/shiva/.nuget/NuGet/endor-nexus": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11111,7 +11108,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net7.0": {
@@ -11132,10 +11135,6 @@
           "Microsoft.AspNetCore.SpaServices": {
             "target": "Package",
             "version": "[2.2.0, )"
-          },
-          "Microsoft.CSharp": {
-            "target": "Package",
-            "version": "[4.7.0, )"
           },
           "Microsoft.IdentityModel.Clients.ActiveDirectory": {
             "target": "Package",
@@ -11181,16 +11180,350 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CoreFtp' 1.4.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w393-h95m-f879",
+      "libraryId": "CoreFtp",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known critical severity vulnerability, https://github.com/advisories/GHSA-2qxc-mf4x-wr29",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3f7v-qx94-666m",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-4qf5-7xc2-wqpg",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5whq-j5qg-wjvp",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-79m3-rvx2-3qq9",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7rcc-q6rq-jpcm",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9phr-h5mx-4fp6",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9w72-2f23-57gm",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-g8j6-m4p7-5rfq",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1901",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known low severity vulnerability, https://github.com/advisories/GHSA-gj8m-5492-q98h",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-j3g9-6fx5-gjv7",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jc4g-c8ww-5738",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m4hf-fxcg-cp34",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vjcm-j85r-7p68",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wq2j-w9pm-7x2p",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-xx3h-j3cx-8qfj",
+      "libraryId": "DotNetNuke.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetZip' 1.10.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7378-6268-4278",
+      "libraryId": "DotNetZip",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetZip' 1.10.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-xhg6-9j5j-w4vf",
+      "libraryId": "DotNetZip",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'log4net' 2.0.9 has a known critical severity vulnerability, https://github.com/advisories/GHSA-2cwj-8chv-9pp9",
+      "libraryId": "log4net",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.SpaServices' 2.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xr8f-59pp-rxxh",
+      "libraryId": "Microsoft.AspNetCore.SpaServices",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.IdentityModel.Clients.ActiveDirectory' 5.1.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-xc6x-cq47-9chw",
+      "libraryId": "Microsoft.IdentityModel.Clients.ActiveDirectory",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7vfh-cqpc-4267",
+      "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9q94-v7ch-mxqw",
+      "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known high severity vulnerability, https://github.com/advisories/GHSA-qm9f-c3v9-wphv",
+      "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ServiceStack' 5.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v5rv-hpxg-8x49",
+      "libraryId": "ServiceStack",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ServiceStack' 5.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vcfc-9wcp-j623",
+      "libraryId": "ServiceStack",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SharpCompress' 0.20.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-fxh6-w476-hgr4",
+      "libraryId": "SharpCompress",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SharpCompress' 0.20.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jp7f-grcv-6mjf",
+      "libraryId": "SharpCompress",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SharpZipLib' 1.0.0-alpha2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-cqj4-m2pc-v9m5",
+      "libraryId": "SharpZipLib",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SharpZipLib' 1.0.0-alpha2 has a known high severity vulnerability, https://github.com/advisories/GHSA-m22m-h4rf-pwq3",
+      "libraryId": "SharpZipLib",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'YamlDotNet' 4.3.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-rpch-cqj9-h65r",
+      "libraryId": "YamlDotNet",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

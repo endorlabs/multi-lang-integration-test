@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj": {}
+    "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj": {}
   },
   "projects": {
-    "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj": {
+    "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
+        "projectUniqueName": "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
         "projectName": "DotNETApp",
-        "projectPath": "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
-        "packagesPath": "/Users/shiva/.nuget/packages/",
-        "outputPath": "/Users/shiva/GitHubEnterprise/multi-lang-repo/src/dotnet/dotnet-cg-repo/DotNETApp/obj/",
+        "projectPath": "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
+        "packagesPath": "/Users/hvsingh/.nuget/packages/",
+        "outputPath": "/Users/hvsingh/endorlabs/integration-tests/multi-lang-integration-test/src/dotnet/dotnet-cg-repo/DotNETApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/shiva/.nuget/NuGet/NuGet.Config"
+          "/Users/hvsingh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/Users/shiva/.nuget/NuGet/endor-nexus": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net7.0": {
@@ -54,10 +59,6 @@
             "Microsoft.AspNetCore.SpaServices": {
               "target": "Package",
               "version": "[2.2.0, )"
-            },
-            "Microsoft.CSharp": {
-              "target": "Package",
-              "version": "[4.7.0, )"
             },
             "Microsoft.IdentityModel.Clients.ActiveDirectory": {
               "target": "Package",
@@ -103,12 +104,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
